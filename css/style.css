@@ -1,115 +1,652 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pune</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/6b32d35f6c.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="bg">
-        <header class="header">
-            <nav class="header__nav">
-                <span><a class='logo' href="#">PUNE</a></span>
-                <ul class="header__nav-ul">
-                    <li><a class="nav__links" href="#">Information</a></li>
-                    <li><a class="nav__links" href="#">About us</a></li>
-                    <li><a class="nav__links" href="#">Culture</a></li>
-                </ul>
-                <div class="nav__search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input class="nav__search__input" type="search" placeholder="Search">
-                </div>
-            </nav>
-        </header>
-        <div class="main wrapper">
-            <div class="side-bar">
-                <span class="side-bar-follow">Follow us</span>
-                <div class="side-bar-link">
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                </div>
-            </div>
-            <div class="main-text">
-                <span class="title-color">Queen of the Deccan</span>
-                <h1 class="discover"><span>Discover</span><br>Rapchik Pune</h1>
-            </div>
-        </div>
-        <div class="fort wrapper">
-            <img class="fort__img" src="img/fort.png" alt="fort">
-            <div class="fort__text">
-                <span class="title-color">king of fort</span>
-                <span class="title-white">Rajgad Fort</span>
-                <p class="block-text">Rajgad is a hill fort in Pune. It was initially called Murumbdev and was later renamed to Rajgad by Shivaji Maharaj. It is located south-west to Pune City. The base village Gunjavane is around 60km from Pune. This fort was initially the capital of Shivaji Maharaj's Hindavi Swarajya. The capital was later shifted to Raigad. The area of the fort base is 24 square miles.</p>
-                <a class="read__more" href="#">read more<i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="halwai wrapper">
-            <div class="halwai-content">
-                <div>
-                    <span class="title-color-halwai">Bromo</span>
-                </div>
-                <span class="title-white">Shreemant Dagdusheth Halwai Ganpati Mandir</span>
-                <p class="block-text">The Dagadusheth Halwai Ganapati temple in Pune is dedicated to the Hindu god Ganesh. The temple is visited by over hundred thousand pilgrims every year. Devotees of the temple include celebrities and chief ministers of Maharashtra who visit during the annual ten-day Ganeshotsav festival.</p>
-                <a class="read__more" href="#">read more<i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="culture wrapper">
-            <div class="culture-content">
-                <span class="title-color">f.c. road pune</span>
-                <span class="title-white">Our Culture Here Is Very Friendly To People</span>
-                <p class="block-text block-text-culture">Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818. </p>
-                <a class="read__more" href="#">read more<i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <img class="culture-img" src="img/culture.png" alt="culture">
-        </div>
-        <footer class="footer wrapper">
-            <div class="start">
-                <span class="start-pune">PUNE</span>   
-                <div class="start-ready">
-                    <span class="start-ready-span">Ready to explore?</span>
-                    <a class="start-btn" href="#">Get started</a>
-                </div>
-            </div>
-            <div class="footer-middle">
-                    <span class="discover-bottom">Discover Rapchik Pune</span>
-                    <form class="email-form">
-                        <input class="email-input" type="email" placeholder="Email address">
-                        <button class="email-btn" type="submit">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </button>
-                    </form>
-                <ul class="footer-nav">
-                    <li class="footer-link-title">About</li>
-                    <li><a class="footer-nav-link" href="#">Our Story</a></li>
-                    <li><a class="footer-nav-link" href="#">Benefits</a></li>
-                    <li><a class="footer-nav-link" href="#">Team</a></li>
-                    <li><a class="footer-nav-link" href="#">Careers</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li class="footer-link-title">Help</li>
-                    <li><a class="footer-nav-link" href="#">FAQs</a></li>
-                    <li><a class="footer-nav-link" href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-bot">
-                <div class="footer-bot-terms">
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div class="footer-bot-social">
-                    <a href="#"><i class="fa-brands fa-facebook-f fa-brands-margin-left"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter fa-brands-margin-left"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram fa-brands-margin-left"></i></a>
-                </div>
-            </div>
-            <span class="footer-bot-copy">Copyright 2021 PUNE</span>
-        </footer>
-    </div>  
-</body>
-</html>
+*, body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    padding: 0;
+}
+
+.bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/bg.jpg) no-repeat;
+    background-size:  contain;
+    background-color: black;
+}
+
+.header {
+    padding: 0 85px;
+    max-width: 1920px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.header__nav-ul {
+    display: flex;
+}
+
+
+.nav__links {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.nav__links:hover {
+    color: #CFCFCF;
+}
+
+.header__nav-ul>li:not(:first-child) {
+    margin-left: 50px;
+}
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.nav__search {
+    display: flex;
+    align-items: center;
+}
+
+.nav__search__input {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #fff;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.fa-magnifying-glass {
+    color: #fff;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-start;
+    left: -30px;
+    margin-left: 85px;
+    position: fixed;
+}
+
+.side-bar-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.side-bar-link>a {
+    margin-bottom: 20px;
+}
+
+.side-bar-follow {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    transform: rotate(90deg);
+    cursor:default;
+}
+
+.main {
+    position: relative;
+}
+
+.main-text {
+    margin: 200px auto;
+    width: 50vw;
+}
+
+.title-color {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFC178;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 100px;
+}
+
+.title-color::before {
+    content: "";
+    height: 2px;
+    width: 4vw;
+    background: #FFC178;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.discover {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.discover>span {
+    font-weight: 700;
+}
+
+.wrapper {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.title-white {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+.block-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+.read__more {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FBD784;
+    padding-bottom: 19px;
+    transition-duration: 0.3s;
+}
+
+.read__more:hover {
+    text-decoration: underline;
+}
+
+.fort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.fort__img {
+    width: 31vw;
+}
+
+.fort__text {
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.halwai {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/bg_halwai.jpg) no-repeat;
+    background-size: 76vw 100%;
+    padding-top: 70vh;
+
+    
+}
+
+.halwai-content {
+    width: 61vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-color-halwai {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFC178;
+    letter-spacing: 6px;
+    position: relative;
+}
+
+.title-color-halwai::before {
+    content: "";
+    height: 2px;
+    width: 4vw;
+    background: #FFC178;
+    position: absolute;
+    left: -100px;
+    top: 10px;
+}
+
+.title-color-halwai::after {
+    content: "";
+    height: 2px;
+    width: 4vw;
+    background: #FFC178;
+    position: absolute;
+    left: 140px;
+    top: 10px;
+}
+
+.culture {
+    display: flex;
+    padding-top: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.culture-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.culture-img {
+    width: 31vw;
+    margin-left: 11vw;
+}
+
+.block-text-culture {
+    font-weight: 400;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.start::after {
+    content: "";
+    height: 1.38px;
+    width: 100%;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0.3;
+    
+
+}
+
+.start-pune {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.start-ready-span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin-right: 56px;
+}
+
+.start-btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000;
+    background-color: #FFA343;
+    padding: 24px 70px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.start-btn:hover {
+    background-color: #ac6a25;
+}
+
+.footer {
+    margin-top: 250px
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-start;
+}
+
+.footer-middle-left {
+    display: flex;
+
+}
+
+.discover-bottom {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    width: 19vw;
+}
+
+.email-form {
+    position: relative;
+    height: 70px;
+    width: 21vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-form::after {    
+    content: "";
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    height: 1.38px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.email-btn {
+    padding: 21px;
+    background-color: #FFA343;
+    border-radius: 8px 8px 0px 0px;
+    cursor: pointer;
+    width: 70px;
+    transition-duration: 0.3s;
+    border: none;
+}
+
+.email-btn:hover {
+    background-color: #ac6a25;
+}
+
+.email-input {
+    background-color: #000;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    outline: none;
+}
+
+.footer-nav {
+    margin-top: 0;
+}
+
+.footer-nav>li:not(:first-child) {
+    margin-top: 20px;
+}
+
+.footer-nav-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 0px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer-nav-link:hover {
+    color: #CFCFCF;
+}
+
+.footer-link-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.231818px;
+    color: #FFD1A0;
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px
+}
+
+.footer-bot-terms>a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.footer-bot-terms>a:hover {
+    color: #CFCFCF;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-brands-margin-left {
+    margin-left: 50px;
+}
+
+.footer-bot-copy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+}
+
+.fa-arrow-right {
+    margin-left: 9px;
+}
+
+@media (max-width: 1110px) {
+
+
+    .halwai {
+        padding-top: 4vh;
+    }
+
+    .culture-img {
+        display: none;
+    }
+
+    .culture-content {
+        text-align: center;
+        
+    }
+
+    .title-color {
+        padding-left: 0;
+    }
+
+    .title-color::before {
+        display: none;
+    }
+}
+
+@media (max-width: 915px) {
+    .discover-bottom {
+        display: none;
+    }
+    .nav__search {
+        display: none;
+    }
+    .start-btn {
+        display: block;
+    }
+    .start-ready {
+        display: flex;
+        align-items: center;
+    }
+    .fort__img {
+        display: none;
+    }
+    .fort__text {
+        width: 100%;
+        text-align: center;
+    }
+    .halwai-content {
+        width: 100%;
+}
+    .start-btn {
+        padding: 12px 26px;
+    }
+}
+
+@media (max-width: 710px) {
+    .footer-bot-social {
+        flex-wrap: nowrap;
+        display: flex;
+    }
+
+    .footer-bot-terms {
+        display: flex;
+    }
+
+    .wrapper {
+        width: 84vw;
+    }
+
+    .halwai {
+        background: none;
+    }
+
+    .footer-bot {
+        align-items: center;
+    }
+
+    .footer-bot {
+        width: 100%;
+    }
+
+    .start-pune {
+        display: none;
+    }
+    .start-ready {
+        margin: 0 auto;
+    }
+
+    .side-bar{
+        display: none;
+    }     
+    .header{
+        padding: 0;
+    }
+    .header__nav {
+        justify-content: space-around;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .email-form {
+        width: 100%;
+        height:inherit;
+        margin-bottom: 52px;
+
+    }
+    .footer-middle {
+        flex-wrap: wrap;
+    }
+    .footer-bot-terms>a {
+        margin-left: 0;
+    }
+
+    .title-white {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .discover {
+        font-size: 68px;
+        line-height: 83px;
+    }
+
+    .header__nav-ul>li:not(:first-child) {
+        margin-left: 10px;
+    }
+
+    .main-text, .culture, .fort, .footer {
+        margin: 135px auto;
+    }
+
+    .culture {
+        padding-top: 0;
+    }
+
+    .start-btn {
+        white-space: nowrap;
+    }
+}
