@@ -508,6 +508,10 @@ ul {
     margin-left: 9px;
 }
 
+.fa-chevron-right {
+    color: #000;
+}
+
 @media (max-width: 1110px) {
 
 
@@ -625,7 +629,7 @@ ul {
     }
 
     .title-white {
-        font-size: 50px;
+        font-size: 35px;
         line-height: 75px;
     }
 
@@ -648,5 +652,9 @@ ul {
 
     .start-btn {
         white-space: nowrap;
+    }
+
+    .title-color-halwai::before, .title-color-halwai::after {
+        display: none;
     }
 }
