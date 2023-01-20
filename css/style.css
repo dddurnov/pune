@@ -14,7 +14,7 @@ ul {
 }
 
 .bg {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pune/img/bg.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/bg.jpg) no-repeat;
     background-size:  contain;
     background-color: black;
 }
@@ -224,7 +224,7 @@ ul {
 .halwai {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(pune/img/bg_halwai.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/bg_halwai.jpg) no-repeat;
     background-size: 76vw 100%;
     padding-top: 70vh;
 
